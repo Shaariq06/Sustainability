@@ -4,6 +4,7 @@ nav {
   justify-content: space-between;
   border-bottom: #e0e0e0 solid 1px;
   margin-bottom: 10px;
+  background-color: whitesmoke;
 }
 
 ul {
@@ -63,6 +64,8 @@ nav a:hover {
 }
 body {
   font-family: "IBMPlexMono", sans-serif;
+  background-color: #e0e2e3;
+  margin: 0;
 }
 
 @font-face {
