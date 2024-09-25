@@ -106,3 +106,7 @@ body {
   box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.344);
   border-radius: 10px;
 }
+
+.guide {
+  margin:30px;
+}
