@@ -3,6 +3,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   border-bottom: #e0e0e0 solid 1px;
+  margin-bottom: 10px;
 }
 
 ul {
@@ -56,9 +57,9 @@ nav a:hover {
   margin-top: 50px;
   height: 200px;
   width: 400px;
-  position:absolute;
+  position: absolute;
   top: 70px;
-  right:10px
+  right: 10px;
 }
 body {
   font-family: "IBMPlexMono", sans-serif;
@@ -88,8 +89,8 @@ body {
   font-style: normal;
 }
 
-.text{
-  width:65%;
-  text-align:justify;
+.text {
+  width: 65%;
+  text-align: justify;
   margin-left: 20px;
 }
