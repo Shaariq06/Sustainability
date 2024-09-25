@@ -27,3 +27,7 @@ img {
 */ {
   background-color: lightblue;
 }
+
+#homess {
+  position: absolute;
+}
