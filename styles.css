@@ -56,6 +56,9 @@ nav a:hover {
   margin-top: 50px;
   height: 200px;
   width: 400px;
+  position:absolute;
+  top: 70px;
+  right:10px
 }
 body {
   font-family: "IBMPlexMono", sans-serif;
@@ -83,4 +86,9 @@ body {
     url("/fonts/IBMPlexMono-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
+}
+
+.text{
+  width:65%;
+  text-align:justify;
 }
