@@ -1,4 +1,5 @@
 nav {
+<<<<<<< HEAD
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -9,21 +10,37 @@ ul {
   flex-grow: 1;
 }
 
+=======
+  background-color: #495cc6;
+  padding: 10px;
+}
+
+>>>>>>> 456e93560037a4d38ef131720d0a387e3e228d1c
 nav ul {
   list-style: none;
   display: flex;
   justify-content: center;
   margin: 0;
   padding: 0;
+<<<<<<< HEAD
   flex-grow: 1;
+=======
+  display: flex;
+>>>>>>> 456e93560037a4d38ef131720d0a387e3e228d1c
 }
 
 nav ul li {
   margin-right: 15px;
 }
 
+<<<<<<< HEAD
 nav ul li:last-child {
   margin-right: 0;
+=======
+nav ul li a {
+  color: darkblue;
+  transition: background-color 0.2s;
+>>>>>>> 456e93560037a4d38ef131720d0a387e3e228d1c
 }
 
 nav a {
@@ -34,6 +51,7 @@ nav a {
   transition: color 0.2s ease-in;
 }
 
+<<<<<<< HEAD
 nav a:hover {
   color: darkblue;
 }
@@ -51,6 +69,13 @@ nav a:hover {
   width: auto;
 }
 
+=======
+
+*/ {
+  background-color: lightblue;
+}
+
+>>>>>>> 456e93560037a4d38ef131720d0a387e3e228d1c
 #homess {
   padding: 10px;
   margin-top: 50px;
@@ -83,9 +108,4 @@ body {
     url("/fonts/IBMPlexMono-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
-}
-
-.logo {
-  height: 90px;
-  width: 100px;
 }
