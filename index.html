@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
     <link rel="shortcut icon" href="./logo-1.png" />
+    <script src="script.js"></script>
     <title>Home</title>
   </head>
   <body>
@@ -21,6 +22,7 @@
         </ul>
       </nav>
     </header>
+    <!--
     <section class="guide">
       <h1>Coders' Good Sustainability Guide</h1>
       <section class="guide-1">
@@ -46,9 +48,39 @@
         <p>
           Write software that's maintainable and can last. Avoid short-lived
           solutions or quick fixes that will require frequent updates and
-          rewrites
+          rewrites.
         </p>
       </section>
-    </section>
+    </section>-->
+    <div class="tab-container">
+      <!-- Tab buttons -->
+      <div class="tabs">
+          <button class="tab-btn active" onclick="openTab(event, 'codeforefficiency')">Code for Efficiency</button>
+          <button class="tab-btn" onclick="openTab(event, 'greentesting')">Green Testing</button>
+          <button class="tab-btn" onclick="openTab(event, 'thinklifespan')">Think Lifespan</button>
+      </div>
+
+      <!-- Tab content -->
+      <div id="codeforefficiency" class="tab-content active">
+          <h2>Code for Efficiency</h2>
+          <p>Write clean, efficient, and optimized code to reduce energy
+            consumption. Every unnecessary process or loop costs computing power
+            and energy.</p>
+          <img class="tabimages" src="coders1.png" loading="lazy" alt="Loading..." style="width: 150px;"/>
+      </div>
+      <div id="greentesting" class="tab-content">
+          <h2>Green Testing</h2>
+          <p>Run automated tests efficiently - reduce unnecessary re-runs and use
+            parallel testing to minimize resource consumption.</p>
+          <img class="tabimages" src="coders2.png" loading="lazy" alt="Loading..." style="width: 150px;"/>
+      </div>
+      <div id="thinklifespan" class="tab-content">
+          <h2>Think Lifespan</h2>
+          <p>Write software that's maintainable and can last. Avoid short-lived
+            solutions or quick fixes that will require frequent updates and
+            rewrites.</p>
+          <img class="tabimages" src="coders3.png" loading="lazy" alt="Loading..." style="width: 150px;"/>
+      </div>
+  </div>
   </body>
 </html>
