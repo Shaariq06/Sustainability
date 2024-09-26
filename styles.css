@@ -63,7 +63,7 @@ nav a:hover {
   right: 10px;
 }
 body {
-  font-family: "IBMPlexMono", sans-serif;
+  font-family: "IBMPlexSans", sans-serif;
   background-color: #e0e2e3;
   margin: 0;
 }
@@ -186,4 +186,8 @@ h2 {
   margin-right: 10px;
   color: #525252;
   font-size: 18px;
+}
+
+.points {
+  padding-left: 10px;
 }
