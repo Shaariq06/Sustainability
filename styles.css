@@ -70,24 +70,15 @@ body {
 
 @font-face {
   font-family: "IBMPlexSans";
-  src: url("/fonts/IBMPlexSans-Regular.woff2") format("woff2"),
-    url("/fonts/IBMPlexSans-Regular.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "IBMPlexSerif";
-  src: url("/fonts/IBMPlexSerif-Regular.woff2") format("woff2"),
-    url("/fonts/IBMPlexSerif-Regular.woff") format("woff");
+  src: url("/ibm-plex-sans/fonts/complete/ttf/IBMPlexSans-Regular.ttf")
+    format("truetype");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: "IBMPlexMono";
-  src: url("/fonts/IBMPlexMono-Regular.woff2") format("woff2"),
-    url("/fonts/IBMPlexMono-Regular.woff") format("woff");
+  src: url("/IBM_Plex_Mono/IBMPlexMono-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
@@ -118,6 +109,7 @@ body {
   text-align: center;
   margin-bottom: 20px;
   font-weight: 500;
+  font-family: "IBMPlexMono", sans-serif;
 }
 
 h2 {
